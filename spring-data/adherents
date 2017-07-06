@@ -1,0 +1,49 @@
+{
+  "_embedded" : {
+    "adherents" : [ {
+      "nom" : "Durant",
+      "prenom" : "Martin",
+      "tel" : "0634542312",
+      "email" : "martin.durant@gmail.com",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/adherents/11"
+        },
+        "adherent" : {
+          "href" : "http://localhost:8080/adherents/11"
+        }
+      }
+    }, {
+      "nom" : "Ternois",
+      "prenom" : "Sophie",
+      "tel" : "0657341323",
+      "email" : "sophie.ternois@free.fr",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/adherents/12"
+        },
+        "adherent" : {
+          "href" : "http://localhost:8080/adherents/12"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/adherents{?page,size,sort}",
+      "templated" : true
+    },
+    "profile" : {
+      "href" : "http://localhost:8080/profile/adherents"
+    },
+    "search" : {
+      "href" : "http://localhost:8080/adherents/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 2,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
